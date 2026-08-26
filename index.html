@@ -1,0 +1,705 @@
+<!doctype html>
+<html class="scroll-smooth scrollbar-thumb-sky-700 scrollbar-track-sky-100" id="Retour">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="/tailwind.js"></script>
+</head>
+
+<body>
+    <!------------------------------------------------- la nav-bar------------------------------------------- -->
+    <header class=" fixed lg:fixed w-full z-50 bg-orange-50 lg:mb-40 mb-10 ">
+        <nav class=" flex flex-row justify-between w-full h-16 px-12 items-center border-b ">
+            <div class="flex flex-row gap-4 items-center">
+                <div class="w-10 h-10 rounded-xl bg-blue-700 flex justify-center items-center">
+                    <h1 class="text-white font-bold">NV</h1>
+                </div>
+                <h1 class="text-blue-700 font-extrabold text-xl">VALDINI NZAPZI</h1>
+            </div>
+            <ul class=" hidden lg:flex flex-row gap-6 font-bold">
+                <a href="#Home">
+                    <li
+                        class="text-orange-600 relative before:content-[''] before:absolute before:bottom-0 before:left-0-0 before:w-[70%] before:h-0.5 before:bg-black">
+                        Mon Profil</li>
+                </a>
+                <a class="hover:text-orange-600" href="#Competences">
+                    <li class="relative trait">Competences</li>
+                </a>
+                <a class="hover:text-orange-600" href="#Projets">
+                    <li>Projets</li>
+                </a>
+                <a class="hover:text-orange-600" href="#Services">
+                    <li>Services</li>
+                </a>
+                <a class="hover:text-orange-600" href="#Contact">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+            <a class="flex items-center" href="#Contact">
+                <button
+                    class=" hidden  px-7 py-2 bg-orange-600 text-white rounded-md lg:flex justify-center items-center font-bold">Me
+                    contacter
+                </button>
+                <i class="block fa-solid fa-bars text-4xl lg:hidden"></i>
+            </a>
+        </nav>
+    </header>
+    <!-- hero section -->
+    <main class="pt-40 lg:pt-40 bg-slate-100" id="Home">
+        <section class="flex flex-col lg:flex-row gap-10 px-12 border-b-2 w-full pb-10" ">
+            <div class=" pt-0 lg:pt-20 w-full lg:w-[60%]">
+            <div class="flex flex-row justify-center w-full lg:justify-start items-center  gap-4">
+                <div class="w-24 h-1 bg-orange-600"></div>
+                <h1>DISPONIBLE POUR DE NOUVEAU PROJETS</h1>
+            </div>
+            <H1 class="text-center lg:text-start font-extrabold text-6xl">DEVELOPPEUR FULLSTACK WEB<span
+                    class=" text-orange-600">.</span></H1>
+            <p class="mt-4 mb-5 text-center lg:text-start">
+
+                Je conçois des expériences digitales modernes, performantes et pensées pour vos utilisateurs. <br>
+                Chaque interface est soigneusement conçue pour allier élégance, fluidité et efficacité.
+                Je transforme <br> vos idées en solutions web sur-mesure, adaptées à vos objectifs et à votre
+                vision.
+                De la conception <br> au développement, chaque détail est optimisé pour offrir une expérience
+                exceptionnelle.Ensemble, <br> donnons vie à votre projet et propulsons-le vers l’excellence
+                digitale.
+            </p>
+            <div class="flex flex-row gap-4 justify-center lg:justify-start">
+                <button
+                    class=" flex  items-center justify-center px-7 bg-orange-600  gap-3 text-white rounded-md font-bold ">
+                    <span>Voir mes projets </span> <i class="fa-solid fa-arrow-right-long text-white"></i>
+                </button>
+                <button
+                    class="px-7 py-2 border-2 border-blue-700 flex items-center justify-center gap-4 text-blue-800 rounded-md font-bold">Telecharger
+                    mon CV <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
+            <div class="flex gap-4 items-center lg:justify-start justify-center mt-10">
+                <h5 class="">SUIVEZ-MOI:</h5>
+                <span
+                    class="size-9 text-black bg-white border-2 rounded-md hover:bg-orange-400 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
+                        class="fa-brands fa-github"></i></span>
+                <span
+                    class="size-9 text-blue-700 bg-white border-2 rounded-md hover:bg-orange-400 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
+                        class="fa-brands fa-linkedin-in"></i></span>
+                <span
+                    class="size-9 text-blue-500 bg-white border-2 rounded-md hover:bg-orange-400 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
+                        class="fa-brands fa-twitter"></i></span>
+                <span
+                    class="size-9 text-blue-700 bg-white border-2 rounded-md hover:bg-orange-400 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
+                        class="fa-brands fa-facebook-f"></i></span>
+            </div>
+
+            </div>
+            <div class="w-full lg:w-[40%] lg:h-[500px] rounded-full relative bounce">
+                <img class="rounded-full" src="/images/Portrait élégant avec lunettes transparentes.png"
+                    alt="un monsieur en costume">
+                <div class="w-32 h-24 bg-blue-700 rounded-lg absolute bottom-3 ">
+                    <p class="text-xs p-3 text-white"> <span class="text-red-600 font-bold">const Valdini = { </span>
+                        role: "Fullstack",
+                        passion: "Innovation" <br> <span class="text-red-600">}</span> </p>
+                </div>
+                <div
+                    class="w-44 h-10 bg-white border-2 absolute top-10 right-[-25px] rounded-xl flex items-center justify-center gap-2">
+                    <span class="block size-2 rounded-full bg-orange-600"></span>
+                    <h4 class="text-black font-bold text-sm">Full-time Freelancer</h4>
+
+                </div>
+
+            </div>
+        </section>
+        <!-------------------------------------- 2eme section mon profil---------------------------------- -->
+        <section class=" mt-20 pt-20 pb-20 bg-slate-300 px-12 border-b-2">
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-60">
+                <div class="flex flex-col items-center lg:items-start">
+                    <div
+                        class="bg-orange-600 hover:text-blue-600 w-32 h-8 hover:bg-white flex items-center justify-center rounded-2xl">
+                        <h6 class="text-sm  font-bold text-white">Mon Profil</h6>
+                    </div>
+                    <h3 class="text-4xl font-extrabold mt-5">Créer avec rigueur et vision technique.</h3>
+                    <p class="mt-5">Avec plus de 5 ans d'expérience dans le développement web, j'accompagne les startups
+                        et grandes
+                        entreprises dans la conception de solutions sur-mesure. Mon but : transformer des besoins
+                        fonctionnels complexes en architectures épurées et en interfaces mémorables.</p>
+                </div>
+                <div class="flex flex-col items-center ">
+                    <p class="text-center">"Le code n'est qu'un outil. Le véritable art réside dans l'optimisation des
+                        flux de travail, la
+                        performance de l'infrastructure et la satisfaction finale de l'utilisateur."
+                    </p>
+                    <div class="flex flex-row gap-5 items-center mt-4">
+                        <div class="w-14 h-1 bg-orange-600"></div>
+                        <h4 class="text-black font-bold">Alexander Martin</h4>
+                    </div>
+                </div>
+            </div>
+            <div class=" grid grid-cols-2 gap-5 lg:flex flex-row w-full justify-between py-10">
+                <div
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-60 pl-4 flex flex-col justify-center rounded-md  bg-white ">
+                    <h2 class="text-3xl font-extrabold text-orange-600">5+</h2>
+                    <h1 class="font-bold">Annees d'experiences</h1>
+                </div>
+                <div
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-60 pl-4 flex flex-col justify-center rounded-md bg-white">
+                    <h2 class="text-3xl font-extrabold text-orange-600">50+</h2>
+                    <h1 class="font-bold">projets realises</h1>
+                </div>
+
+                <div
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-60 pl-4 flex flex-col justify-center rounded-md bg-white">
+                    <h2 class="text-3xl font-extrabold text-orange-600">30+</h2>
+                    <h1 class="font-bold">Clients satisf
+                </div>
+                <div
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-60 pl-4 flex flex-col justify-center rounded-md bg-white">
+                    <h2 class="text-3xl font-extrabold text-orange-600">10+</h2>
+                    <h1 class="font-bold">techs maitrises</h1>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------------------- Mes competences------------------------------------------- -->
+
+        <section class="px-12 py-20 flex flex-col items-center bg-white border-b-2" id="Competences">
+            <div
+                class=" flex justify-center items-center w-48 h-8 border-1 rounded-2xl bg-orange-600 text-white font-bold ">
+                Mes Competences
+            </div>
+            <h1 class="text-3xl lg:text-4xl font-extrabold mb-20 ">Une expertise robuste à 360°.</h1>
+            <div class="flex flex-col lg:flex-row w-full gap-10  ">
+                <div
+                    class="flex-1 border-2 rounded-lg py-6 flex  flex-col gap-3 transition delay-100 duration-1000 ease-in-out hover:-translate-y-5 shadow-2xl relative overflow-hidden">
+                    <div class="flex gap-5 px-6">
+                        <div
+                            class="size-10 rounded-md bg-blue-100 flex justify-center items-center text-blue-800 text-2xl">
+                            <i class="fa-solid fa-web-awesome"></i>
+                        </div>
+                        <h2 class=" text-2xl font-bold text-blue-600">Frontend</h2>
+                    </div>
+
+                    <div class="flex justify-between px-6 ">
+                        <h3>React/Next.js</h3> <span class="text-orange-600 font-bold">95%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[80%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Vue.js</h3> <span class="text-orange-600 font-bold">80%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[70%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>TypeScript</h3> <span class="text-orange-600 font-bold">90%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[75%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Tailwind.css</h3> <span class="text-orange-600 font-bold">95%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[80%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600  absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">1</h1>
+                    </div>
+                </div>
+                <div
+                    class="flex-1 border-2 rounded-lg py-6 flex  flex-col gap-3 transition delay-100 duration-1000 ease-in-out hover:-translate-y-5 shadow-2xl relative overflow-hidden">
+                    <div class="flex gap-5 px-6">
+                        <div
+                            class="size-10 rounded-md bg-blue-100 flex justify-center items-center text-blue-800 text-2xl">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h2 class=" text-2xl font-bold text-blue-600">Backend</h2>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Note.js/Express</h3> <span class="text-orange-600 font-bold">90%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[75%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Python/Django</h3> <span class="text-orange-600 font-bold">85%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[70%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>PostgreSQL</h3> <span class="text-orange-600 font-bold">88%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[78%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>GraphQL & REST APIs</h3> <span class="text-orange-600 font-bold">92%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[85%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600 absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">2</h1>
+                    </div>
+                </div>
+                <div
+                    class="flex-1 border-2 rounded-lg py-6 flex  flex-col gap-3 transition delay-100 duration-1000 ease-in-out hover:-translate-y-5 shadow-2xl relative overflow-hidden">
+                    <div class="flex gap-5 px-6">
+                        <div
+                            class="size-10 rounded-md bg-blue-100 flex justify-center items-center text-blue-800 text-2xl">
+                            <i class="fa-solid fa-sitemap"></i>
+                        </div>
+                        <h2 class=" text-2xl font-bold text-blue-600">DevOps & Outils</h2>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Docker</h3> <span class="text-orange-600 font-bold">80%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[70%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>AWS</h3> <span class="text-orange-600 font-bold">75%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[65%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Git / CI-CD</h3> <span class="text-orange-600 font-bold">90%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[75%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="flex justify-between px-6 ">
+                        <h3>Vercel / Heroku</h3> <span class="text-orange-600 font-bold">95%</span>
+                    </div>
+                    <div class="h-2 bg-slate-400 rounded-2xl  mx-6">
+                        <div class="h-2 w-[80%] bg-blue-700 rounded-2xl"></div>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600  absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">3</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------------------------- experiences et formations------------------------------------- -->
+
+        <section class="px-12 py-20 border-b-2 w-full flex flex-col items-center lg:items-start">
+            <div
+                class=" flex justify-center items-center w-40 h-7 border-1 rounded-2xl bg-orange-600 text-white font-bold ">
+                Mon Parcourt</div>
+            <h1 class="text-4xl font-extrabold mb-20">Expériences & Formation.</h1>
+            <div class="flex gap-20 lg:gap-40 items-start w-full">
+                <h4 class="text-orange-600 font-semibold">2025_2026</h4>
+                <div>
+                    <div class="flex gap-5 items-center">
+                        <div class="lg:w-3 lg:h-3 w-2 h-2 rounded-full bg-blue-700"></div>
+                        <h3 class="font-extrabold text-xl text-blue-600">Lead Developer</h3>
+                    </div>
+                    <div class="pl-8">
+                        <h5 class="text-black font-bold text-sm lg:text-md">TechCorp</h5>
+                        <p>Encadrement technique d'une équipe de 6 développeurs. Architecture des nouveaux produits SaaS
+                            basés sur Next.js, Django et infrastructure AWS. <br> Réduction du temps de chargement des
+                            applications de 40%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex lg:gap-40 gap-20 items-start">
+                <h4 class="text-orange-600 font-semibold">2023_2024</h4>
+                <div>
+                    <div class="flex gap-5 items-center">
+                        <div class="lg:w-3 lg:h-3 w-2 h-2 rounded-full bg-blue-700"></div>
+                        <h3 class="font-extrabold text-xl text-blue-600">Lead Developer</h3>
+                    </div>
+                    <div class="pl-8">
+                        <h5 class="text-black font-bold text-sm">TechCorp</h5>
+                        <p>Encadrement technique d'une équipe de 6 développeurs. Architecture des nouveaux produits SaaS
+                            basés sur Next.js, Django et infrastructure AWS. <br> Réduction du temps de chargement des
+                            applications de 40%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex lg:gap-40 gap-20 items-start">
+                <h4 class="text-orange-600 font-semibold">2022_2023</h4>
+                <div>
+                    <div class="flex gap-5 items-center">
+                        <div class="lg:w-3 lg:h-3 w-2 h-2 rounded-full bg-blue-700"></div>
+                        <h3 class="font-extrabold text-xl text-blue-600">Lead Developer</h3>
+                    </div>
+                    <div class="pl-8">
+                        <h5 class="text-black font-bold text-sm">TechCorp</h5>
+                        <p>Encadrement technique d'une équipe de 6 développeurs. Architecture des nouveaux produits SaaS
+                            basés sur Next.js, Django et infrastructure AWS. <br> Réduction du temps de chargement des
+                            applications de 40%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-20 lg:gap-40 items-start">
+                <h4 class="text-orange-600 font-semibold">2020_2022</h4>
+                <div>
+                    <div class="flex gap-5 items-center">
+                        <div class="lg:w-3 lg:h-3 w-2 h-2 rounded-full bg-blue-700"></div>
+                        <h3 class="font-extrabold text-xl text-blue-600">Lead Developer</h3>
+                    </div>
+                    <div class="pl-8">
+                        <h5 class="text-black font-bold text-sm">TechCorp</h5>
+                        <p>Encadrement technique d'une équipe de 6 développeurs. Architecture des nouveaux produits SaaS
+                            basés sur Next.js, Django et infrastructure AWS. <br> Réduction du temps de chargement des
+                            applications de 40%.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------- Mes Realisations ------------------------------------------------>
+        <section class="px-12 py-20 bg-white border-b-2" id="Projets">
+            <div class="flex flex-col justify-between items-center lg:flex-row ">
+                <div class="flex flex-col items-center lg:items-start">
+                    <div
+                        class=" flex justify-center items-center w-44 h-8 font-bold border-1 rounded-2xl bg-orange-600 text-white ">
+                        Mes Realisations
+                    </div>
+                    <h1 class="text-4xl font-extrabold mb-20">Projets phares récents.</h1>
+                </div>
+                <p class="font-bold">Découvrez une sélection rigoureuse de projets <br> techniques d'envergure, alliant
+                    complexité métier et <br> esthétique frontend.</p>
+            </div>
+            <div class=" flex w-full gap-16 flex-col pt-5 lg:pt-0 lg:flex-row">
+                <div
+                    class="flex-1 border-2 rounded-2xl transition delay-100 duration-1000 ease-in-out hover:-translate-y-5 shadow-2xl">
+                    <img class="w-full rounded-tl-2xl rounded-tr-2xl hover:grayscale" src="/images/Rectangle.svg"
+                        alt="image de site">
+                    <div class="p-4">
+                        <h2 class="text-blue-700 font-extrabold text-xl pb-2">E-Commerce Platform</h2>
+                        <p>Une solution de vente en ligne ultra-rapide dotée d'une gestion complexe des inventaires et
+                            de tunnels d'achat optimisés.</p>
+                        <div class="flex gap-4 pt-2 justify-center ">
+                            <span
+                                class="px-2 font-bold text-white py-0.5 flex items-center rounded-md bg-orange-600">Nest.js</span>
+                            <span
+                                class="px-2 font-bold text-white py-0.5 flex items-center rounded-md bg-orange-600">Stripe</span>
+                            <span
+                                class="px-2 font-bold text-white py-0.5 flex items-center rounded-md bg-orange-600">PostgreSQL</span>
+                            <span
+                                class="px-2 font-bold text-white py-0.5 flex items-center rounded-md bg-orange-600">Tailwind.css</span>
+                        </div>
+                    </div>
+                    <hr class="mx-4">
+                    <a class="flex items-center gap-2 text-blue-600 font-bold pl-4 py-5" href="#">Voir le projet <i
+                            class="fa-solid fa-up-right-from-square text-orange-600"></i></a>
+                </div>
+                <div
+                    class="flex-1 h-full border-2 rounded-2xl transition delay-100 duration-1000 ease-in-out hover:-translate-y-5 shadow-2xl">
+                    <img class="w-full rounded-tl-2xl rounded-tr-2xl hover:grayscale" src="/images/Rectangle (1).svg"
+                        alt="image de site">
+                    <div class="p-4">
+                        <h2 class="text-blue-700 font-extrabold text-xl pb-2">SaaS Dashboard</h2>
+                        <p>Un tableau de bord analytique complet avec flux de données temps réel pour le pilotage
+                            d'activité d'entreprises logistiques. entreprise
+
+                        </p>
+                        <div class="flex gap-4 pt-2 justify-center ">
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md bg-orange-600 text-white font-bold">React</span>
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md bg-orange-600 text-white font-bold">Node.js</span>
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md bg-orange-600 text-white font-bold">PostgreSQL</span>
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md bg-orange-600 text-white font-bold">Tailwind.css</span>
+                        </div>
+                    </div>
+                    <hr class="mx-4">
+                    <a class="flex items-center gap-2 text-blue-600 font-bold pl-4 py-5" href="#">Voir le projet <i
+                            class="fa-solid fa-up-right-from-square  text-orange-600"></i></a>
+                </div>
+                <div
+                    class="flex-1 h-full border-2 rounded-2xl transition delay-100 duration-1000 ease-in-out hover:-translate-y-5 shadow-2xl">
+                    <img class="w-full rounded-tl-2xl rounded-tr-2xl hover:grayscale" src="/images/Rectangle (2).svg"
+                        alt="image de site">
+                    <div class="p-4">
+                        <h2 class="text-blue-700 font-extrabold text-xl pb-2">App Mobile Fitness</h2>
+                        <p>Une solution de vente en ligne ultra-rapide dotée d'une gestion complexe des inventaires et
+                            de tunnels d'achat optimisés.</p>
+                        <div class="flex gap-4 pt-2 justify-center ">
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md text-white font-bold bg-orange-600">Nest.js</span>
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md text-white font-bold bg-orange-600">Stripe</span>
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md text-white font-bold bg-orange-600">PostgreSQL</span>
+                            <span
+                                class="px-2 py-0.5 flex items-center rounded-md text-white font-bold bg-orange-600">Tailwind.css</span>
+                        </div>
+                    </div>
+                    <hr class="mx-4">
+                    <a class="flex items-center gap-2 text-blue-600 font-bold pl-4 py-5" href="#">Voir le projet <i
+                            class="fa-solid fa-up-right-from-square  text-orange-600"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <!----------------------------------------- les technologie que je maitrise ------------------------------------->
+
+        <article class="bg-neutral-400 px-12 py-20 border-b-2">
+            <h1 class="text-center text-xl font-bold">Technologies maîtrisées au quotidien</h1>
+            <div class=" grid grid-cols-3 gap-4 lg:grid lg:grid-cols-6 p-4">
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">React</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">Next.js</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">Vue.js</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">Node.js</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">python</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">TypeScript</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">PostgreSQL</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">MongoDB</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">Docker</span>
+                <span
+                    class="px-4 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">AWS</span>
+                <span
+                    class="lg:px-4 lg:py-2 px-11 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">Figma</span>
+                <span
+                    class="lg:px-12 lg:py-2 px-14 py-2 flex items-center justify-center rounded-xl bg-white text-blue-900 font-bold">Git</span>
+            </div>
+        </article>
+
+        <!-------------------------------------------------- Mes services-------------------------------------- -->
+
+        <section class="flex flex-col items-center px-10 lg:px-32 py-20 border-b-2" id="Services">
+            <div
+                class=" flex justify-center items-center w-40 h-7 border-1 rounded-2xl bg-orange-600 font-bold text-white ">
+                Mes Services
+            </div>
+            <h1 class="text-4xl font-extrabold mb-20 text-center">Comment nous pouvons collaborer.</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-2 w-full flex-wrap gap-5 ">
+                <div class=" w-full h-full border-2 rounded-xl p-10 relative overflow-hidden">
+                    <div
+                        class="flex items-center justify-center text-2xl text-orange-600 size-16 bg-orange-100 border-2 rounded-lg">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-blue-700 font-bold text-xl">Développement Web Sur-Mesure</h2>
+                        <p>Conception de bout en bout de vos applications métier, plateformes e-commerce performantes et
+                            landing pages impactantes.</p>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600 absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">1</h1>
+                    </div>
+                </div>
+                <div class=" w-full h-full border-2 rounded-xl p-10 relative overflow-hidden">
+                    <div
+                        class="flex items-center justify-center text-2xl text-orange-600 size-16 bg-orange-100 border-2 rounded-lg">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-blue-700 font-bold text-xl">Création d'APIs & Backend</h2>
+                        <p>Architectures backend scalables, sécurisées et conformes aux meilleures pratiques de
+                            développement (REST / GraphQL).</p>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600 absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">2</h1>
+                    </div>
+                </div>
+                <div class=" w-full h-full border-2 rounded-xl p-10 relative overflow-hidden">
+                    <div
+                        class="flex items-center justify-center text-2xl text-orange-600 size-16 bg-orange-100 border-2 rounded-lg">
+                        <i class="fa-solid fa-pen-nib fa-rotate-90"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-blue-700 font-bold text-xl">Intégration & Design UI/UX</h2>
+                        <p>Traduction fidèle de vos designs UI/UX figma en interfaces soignées et animations
+                            interactives mémorables.</p>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600 absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">3</h1>
+                    </div>
+                </div>
+                <div class=" w-full h-full border-2 rounded-xl p-10 relative overflow-hidden">
+                    <div
+                        class="flex items-center justify-center text-2xl text-orange-600 size-16 bg-orange-100 border-2 rounded-lg">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-blue-700 font-bold text-xl">Consulting & Audit Technique</h2>
+                        <p>Analyse approfondie de la performance, de la sécurité et du SEO de vos plateformes existantes
+                            avec préconisations claires.</p>
+                    </div>
+                    <div class="size-20 rounded-full bg-orange-600 absolute -right-5 -top-7">
+                        <h1 class="text-white font-bold absolute top-10 right-11">4</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------------Ce que les clients disent de moi------------------------------ -->
+
+        <section class="px-16 lg:px-40 py-20 border-b-2 flex items-center flex-col lg:items-start">
+            <div
+                class=" flex justify-center items-center w-40 h-7 border-1 rounded-2xl bg-orange-600 font-bold text-white ">
+                Temoignages
+            </div>
+            <h1 class="text-4xl font-extrabold mb-20 text-center lg:text-start">Ils m'ont fait confiance</h1>
+            <div class=" flex lg:flex-row flex-col w-full gap-5">
+                <div class=" flex-1 h-full  rounded-lg bg-white border-2 p-4">
+                    <div class="flex justify-between pb-10 pt-4 text-orange-600">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <p>Alexandre a été un atout précieux dans la refonte de notre plateforme. Sa maîtrise technique et
+                        sa rigueur nous ont permis de livrer notre MVP dans des temps records.</p>
+                    <h2 class="text-black font-bold pt-3">Sophie Laurent</h2>
+                    <h3 class="text-blue-600">Product Manager • StartupFlow</h3>
+                </div>
+                <div class="flex-1 h-full  rounded-lg bg-white border-2 p-4">
+                    <div class="flex justify-between pb-10 pt-4 text-orange-600">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <p>Un vrai professionnel du web. Capable de comprendre les enjeux métier aussi bien que d'imposer
+                        des normes de code de haut vol. Je recommande vivement son profil !</p>
+                    <h2 class="text-black font-bold pt-3">Marc Dubreuil</h2>
+                    <h3 class="text-blue-600">CTO • TechCorp</h3>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------------------- Me Contacter ------------------------------------------ -->
+
+        <section class="w-full  flex flex-col lg:flex-row gap-5 px-10 lg:px-36 py-20 border-b-2" id="Contact">
+            <div class=" w-full lg:w-[40%] flex flex-col items-center lg:items-start ">
+                <div
+                    class=" flex justify-center items-center w-40 h-7 border-1 rounded-2xl bg-orange-600 font-bold text-white ">
+                    CONTACT
+                </div>
+                <h1 class="text-4xl font-extrabold mb-6">Travaillons ensemble <span
+                        class="text-2xl text-orange-600 ">.</span></h1>
+                <p>Vous avez un produit à bâtir, une équipe à renforcer ou simplement besoin d'un œil technique aguerri
+                    ? Envoyez-moi un message !
+                </p>
+                <div>
+
+                    <div class="flex gap-4 items-center mt-5">
+                        <div class="size-10 rounded-md bg-white flex justify-center items-center text-blue-600"><i
+                                class="fa-regular fa-envelope"></i></div>
+                        <div>
+                            <h3 class="text-sm">Email Direct</h3>
+                            <h2 class="text-sm text-black font-bold">valdininzapzi47@gmail.com</h2>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-center mt-5">
+                        <div class="size-10 rounded-md bg-white flex justify-center items-center text-blue-600"><i
+                                class="fa-solid fa-phone-volume"></i></div>
+                        <div>
+                            <h3 class="text-sm">Telephone</h3>
+                            <h2 class="text-sm text-black font-bold">+237 680415651</h2>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-center mt-5">
+                        <div class="size-10 rounded-md bg-white flex justify-center items-center text-blue-600"><i
+                                class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h3 class="text-sm">Localisation</h3>
+                            <h2 class="text-sm text-black font-bold">Simbock/Yaounde</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class=" w-full lg:w-[60%]  border-2 rounded-xl bg-orange-100 px-5 lg:px-10 py-8">
+                <div class="flex flex-col">
+                    <label class="font-bold" for="nom">Nom Complet</label>
+                    <input class="py-2 rounded-md placeholder:pl-3" type="text" name="nom" id="nom"
+                        placeholder="Ex: Valdini Nzapzi">
+                </div>
+                <div class="flex flex-col mt-3">
+                    <label class="font-bold" for="Email">Email de Contact</label>
+                    <input class="py-2 rounded-md placeholder:pl-3" type="text" name="nom" id="Email"
+                        placeholder="Ex: Valdininzapzi47@gmail.com">
+                </div>
+                <div class="mt-3 flex flex-col">
+                    <label class="font-bold" for="text">Votre Message</label>
+                    <textarea class="h-20 rounded-md" name="text"
+                        id="text">Decrivez brievement votre projet ou votre besoin</textarea>
+                </div>
+                <button
+                    class=" flex justify-center items-center w-full h-10 text-white font-bold bg-orange-600 mt-3 rounded-lg">Envoyer
+                    le message</button>
+            </div>
+        </section>
+
+
+    </main>
+    <!--------------------------------------------- footer ----------------------------------------------->
+
+    <footer class="px-12 py-20 bg-blue-700 w-full">
+        <div class="flex justify-between border-b-2 pb-10">
+            <div>
+                <h2 class="text-white font-bold text-2xl">VALDINI NZAPZI</h2>
+                <P class="text-white text-sm">Développeur Web Fullstack — Créer sans limites.</P>
+            </div>
+            <div class="flex gap-4">
+                <span
+                    class="size-9 text-black border-white border-2 rounded-full bg-white  justify-center items-center flex "><i
+                        class="fa-brands fa-github"></i></span>
+                <span
+                    class="size-9 text-blue-700 border-white border-2 rounded-full bg-white  justify-center items-center flex"><i
+                        class="fa-brands fa-linkedin-in"></i></span>
+                <span
+                    class="size-9 text-blue-700 border-white border-2 rounded-full  bg-white justify-center items-center flex"><i
+                        class="fa-brands fa-twitter"></i></span>
+                <span
+                    class="size-9 text-blue-700 border-white border-2 rounded-full bg-white  justify-center items-center flex"><i
+                        class="fa-brands fa-facebook-f"></i></span>
+
+            </div>
+        </div>
+        <div class="flex justify-between pt-4">
+            <p class="text-sm text-white">© 2026 Valdini Nzapzi — Tous droits réservés.</p>
+            <div class="flex gap-3 ">
+                <h5 class="text-orange-400 shadow-xl  font-bold bg-primary">Retour en Haut</h5>
+                <a href="#Retour">
+                    <div class="flex justify-center items-center size-6 bg-orange-600  text-white rounded-sm border-2">
+                        <i class="fa-solid fa-chevron-up"></i>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
