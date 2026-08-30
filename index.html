@@ -13,18 +13,19 @@
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 
-     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 
-<body class="w-screen">
+<body class="w-full overflow-x-hidden">
     <!------------------------------------------------- la nav-bar------------------------------------------- -->
-    <header class=" fixed lg:fixed w-screen z-50 bg-orange-50 lg:mb-40 mb-10 overflow-hidden ">
-        <nav class=" flex flex-row justify-between w-full h-16 px-12 items-center border-b ">
+    <header class=" fixed lg:fixed w-full z-50 bg-orange-50 lg:mb-40 mb-10 overflow-hidden ">
+        <nav class=" flex flex-row justify-between w-full h-16 px-4 lg:px-12 items-center border-b ">
             <div class="flex flex-row gap-4 items-center">
-                <div class="w-10 h-10 rounded-xl bg-blue-700 flex justify-center items-center">
+                <div class="w-10 h-10 rounded-xl bg-blue-900 flex justify-center items-center">
                     <h1 class="text-white font-bold">NV</h1>
                 </div>
-                <h1 class="text-blue-700 font-extrabold text-xl">VALDINI <span class="text-orange-600">NZAPZI</span></h1>
+                <h1 class="text-blue-900 font-extrabold text-xl">VALDINI <span class="text-orange-600">NZAPZI</span>
+                </h1>
             </div>
             <ul class=" hidden lg:flex flex-row gap-6 font-bold">
                 <a href="#Home">
@@ -32,16 +33,20 @@
                         class="text-orange-600 relative before:content-[''] before:absolute before:-bottom-2 before:left-0-0 before:w-[70%] before:h-0.5 before:bg-orange-600">
                         Mon Profil</li>
                 </a>
-                <a class="hover:text-orange-600" href="#Competences">
+                <a class="hover:text-orange-600 relative before:content-[''] before:absolute before:-bottom-2 left-0 before:h-0.5 before:bg-orange-600 hover:before:w-[70%] transition duration-75"
+                    href="#Competences">
                     <li class="relative trait">Competences</li>
                 </a>
-                <a class="hover:text-orange-600" href="#Projets">
+                <a class="hover:text-orange-600 relative before:content-[''] before:absolute before:-bottom-2 left-0 before:h-0.5 before:bg-orange-600 hover:before:w-[70%]"
+                    href="#Projets">
                     <li>Projets</li>
                 </a>
-                <a class="hover:text-orange-600" href="#Services">
+                <a class="hover:text-orange-600 relative before:content-[''] before:absolute before:-bottom-2 left-0 before:h-0.5 before:bg-orange-600 hover:before:w-[70%]"
+                    href="#Services">
                     <li>Services</li>
                 </a>
-                <a class="hover:text-orange-600" href="#Contact">
+                <a class="hover:text-orange-600 relative before:content-[''] before:absolute before:-bottom-2 left-0 before:h-0.5 before:bg-orange-600 hover:before:w-[70%]"
+                    href="#Contact">
                     <li>Contact</li>
                 </a>
 
@@ -56,79 +61,96 @@
         </nav>
     </header>
     <!-- hero section -->
-    <main class="pt-40 lg:pt-40 bg-slate-100 w-screen overflow-x-hidden  lg:bg-gradient-to-tr from-white via-slate-300 to-slate-900" id="Home"overflow-hidden>
-        <section class="flex flex-col lg:flex-row gap-2 justify-center items-center px-4 lg:px-12 w-full pb-10" >
+    <main
+        class="pt-40 lg:pt-40 w-screen max-w-full bg-slate-200  overflow-x-hidden lg:bg-gradient-to-tr from-white  via-slate-300  to-slate-900"
+        id="Home" overflow-hidden>
+        <section class="flex flex-col justify-center items-center  lg:flex-row gap-2 px-4  lg:px-12 w-full pb-10">
             <div class=" pt-0 lg:pt-20 w-full lg:w-[60%]">
-            <div class="flex flex-row justify-center w-full lg:justify-start items-center  gap-4">
-                <div class="lg:w-24 w-12 h-1 bg-orange-600"></div>
-                <h1 class="font-bold text-orange-600">Salut ! je suis</h1>
-                <h1 class="text-4xl font-bold">Nzapzi <span class="text-orange-600">Valdini</span></h1>
-            </div>
-            <H1 class="text-center lg:text-start font-extrabold text-3xl lg:text-6xl">DEVELOPPEUR FULLSTACK WEB <span class="text-orange-600">JAVASCRIPT</span><span
-                    class=" text-orange-600">.</span></H1>
-            <p class="mt-4 mb-5 text-center lg:text-start">
+                <div class="flex flex-col lg:flex-row justify-center w-full lg:justify-start items-center  gap-4">
+                    <div class="lg:w-24 w-12 h-1 bg-orange-600"></div>
+                    <h1 class="font-bold text-orange-600">Salut ! je suis</h1>
+                    <h1 class="text-4xl font-bold">Nzapzi <span class="text-orange-600">Valdini</span></h1>
+                </div>
+                <H1 class="text-center lg:text-start font-extrabold text-4xl sm:text-6xl lg:text-6xl">DEVELOPPEUR
+                    FULLSTACK WEB <span class="text-orange-600">JAVASCRIPT</span><span class=" text-orange-600">.</span>
+                </H1>
+                <p class="mt-4 mb-5 text-center lg:text-start">
 
-                Je conçois des expériences digitales modernes, performantes et pensées pour vos utilisateurs. <br>
-                Chaque interface est soigneusement conçue pour allier élégance, fluidité et efficacité.
-                Je transforme <br> vos idées en solutions web sur-mesure, adaptées à vos objectifs et à votre
-                vision.
-                De la conception <br> au développement, chaque détail est optimisé pour offrir une expérience
-                exceptionnelle.Ensemble, <br> donnons vie à votre projet et propulsons-le vers l’excellence
-                digitale.
-            </p>
-            <div class="flex flex-row gap-4 justify-center lg:justify-start">
-                <button
-                    class=" flex  items-center justify-center px-7 bg-[#f16623]  gap-3 text-white rounded-md font-bold ">
-                    <span>Voir mes projets </span> <i class="fa-solid fa-arrow-right-long text-white"></i>
-                </button>
-                <button
-                    class="px-7 py-2 border-2 border-blue-700 flex items-center justify-center gap-4 text-blue-800 rounded-md font-bold">Telecharger
-                    mon CV <i class="fa-solid fa-download"></i>
-                </button>
-            </div>
-            <div class="flex gap-4 items-center lg:justify-start justify-center mt-10">
-                <h5 class="">SUIVEZ-MOI:</h5>
-                <span
-                    class="size-9 text-black bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
-                        class="fa-brands fa-github"></i></span>
-                <span
-                    class="size-9 text-blue-700 bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
-                        class="fa-brands fa-linkedin-in"></i></span>
-                <span
-                    class="size-9 text-blue-500 bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
-                        class="fa-brands fa-twitter"></i></span>
-                <span
-                    class="size-9 text-blue-700 bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex"><i
-                        class="fa-brands fa-facebook-f"></i></span>
-            </div>
+                    Je conçois des expériences digitales modernes, performantes et pensées pour vos utilisateurs. <br>
+                    Chaque interface est soigneusement conçue pour allier élégance, fluidité et efficacité.
+                    Je transforme <br> vos idées en solutions web sur-mesure, adaptées à vos objectifs et à votre
+                    vision.
+                    De la conception <br> au développement, chaque détail est optimisé pour offrir une expérience
+                    exceptionnelle.Ensemble, <br> donnons vie à votre projet et propulsons-le vers l’excellence
+                    digitale.
+                </p>
+                <div class="flex flex-row gap-4 justify-center lg:justify-start">
+                    <button
+                        class=" flex  items-center justify-center px-5 lg:px-7 bg-[#f85503] gap-1  lg:gap-3 text-white rounded-md font-bold ">
+                        <span>Voir mes projets </span> <i class="fa-solid fa-arrow-right-long text-white"></i>
+                    </button>
+                    <button
+                        class="lg:px-7 px-5 py-2 border-2 border-blue-700 flex items-center justify-center gap-1 lg:gap-4 text-blue-800 rounded-md font-bold">Telecharger
+                        mon CV <i class="fa-solid fa-download"></i>
+                    </button>
+                </div>
+                <div class="flex gap-4 items-center lg:justify-start justify-center mt-10">
+                    <h5 class="font-bold">Suivez-moi:</h5>
+                    <a href="https://github.com/valdini10">
+                        <span
+                            class="size-9 text-black bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex">
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/valdini-nzapzi-39a224404/">
+                        <span
+                            class="size-9 text-blue-700 bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                    </a>
+                    <a
+                        href="https://wa.me/237680415651?text=Bonjour%20Valdini%2C%20je%20vous%20contacte%20apr%C3%A8s%20avoir%20visit%C3%A9%20votre%20portfolio.%20J%E2%80%99aimerais%20%C3%A9changer%20avec%20vous.">
+                        <span
+                            class="size-9 text-green-700 bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex">
+                            <i class="fa-brands fa-whatsapp text-xl font-bold" style="-webkit-text-stroke: 1px;"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.facebook.com/valdini.zefack">
+                        <span
+                            class="size-9 text-blue-700 bg-white border-2 rounded-md hover:bg-blue-800 hover:text-white hover:-translate-y-2 transition duration-500  justify-center items-center flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                    </a>
+                </div>
 
             </div>
-            <div class="w-full lg:w-[40%] lg:h-auto relative bounce pt-5">
-                <img class="rounded-full" src="./images/Portrait élégant avec lunettes transparentes.png"
+            <div class="w-full lg:w-[40%] lg:h-auto relative bounce pt-5 flex justify-center">
+                <img class="rounded-full hover:grayscale" src="./images/file_000000006c348210b2b0ecccab6b8f29.png"
                     alt="un monsieur en costume">
-                <div class="w-32 h-24 bg-blue-700 rounded-lg absolute bottom-3 ">
+                <div class="w-32 h-24 bg-blue-700 rounded-lg absolute bottom-3 left-0 ">
                     <p class="text-xs p-3 text-white"> <span class="text-red-600 font-bold">const Valdini = { </span>
                         role: "Fullstack",
                         passion: "Innovation" <br> <span class="text-red-600">}</span> </p>
                 </div>
                 <div
-                    class="w-44 h-10 bg-white border-2 absolute top-10 right-[-5px] rounded-xl flex items-center justify-center gap-2">
+                    class="lg:w-44 w-30 h-10  bg-white border-2 absolute top-10 -right-[0.25px] rounded-xl flex items-center justify-center gap-2">
                     <span class="block size-2 rounded-full bg-orange-600"></span>
-                    <h4 class="text-black font-bold text-sm">Full-time Freelancer</h4>
+                    <h4 class="text-black font-bold text-xs  lg:text-sm">Full-time Freelancer</h4>
 
                 </div>
 
             </div>
         </section>
         <!-------------------------------------- 2eme section mon profil---------------------------------- -->
-        <section class=" mt-20 pt-20 pb-20 bg-slate-300 px-12 border-b-2">
+        <section class=" mt-20 pt-20 pb-20 bg-slate-300 px-4 lg:px-12 border-b-2">
             <div class="flex flex-col lg:flex-row gap-10 lg:gap-60">
                 <div class="flex flex-col items-center lg:items-start">
                     <div
                         class="bg-orange-600 hover:text-blue-600 w-32 h-8 hover:bg-white flex items-center justify-center rounded-2xl">
                         <h6 class="text-sm  font-bold text-white">Mon Profil</h6>
                     </div>
-                    <h3 class="text-4xl text-center lg:text-start font-extrabold mt-5">Créer avec rigueur et vision technique.</h3>
+                    <h3 class="text-4xl text-center lg:text-start font-extrabold mt-5">Créer avec rigueur et vision
+                        technique.</h3>
                     <p class="mt-5">Avec plus de 5 ans d'expérience dans le développement web, j'accompagne les startups
                         et grandes
                         entreprises dans la conception de solutions sur-mesure. Mon but : transformer des besoins
@@ -145,25 +167,25 @@
                     </div>
                 </div>
             </div>
-            <div class="flex-wrap  justify-center gap-2 lg:gap-5 flex lg:flex-row w-full lg:justify-between py-10">
+            <div class="flex-wrap  justify-center gap-2 lg:gap-5 flex lg:flex-row w-full lg:justify-center py-10">
                 <div
-                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-full lg:w-60   pl-4 flex flex-col justify-center items-center rounded-md  bg-white ">
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-full lg:w-60    flex flex-col justify-center items-center rounded-md  bg-white ">
                     <h2 class="text-3xl font-extrabold text-orange-600">5+</h2>
                     <h1 class="font-bold">Annees d'experiences</h1>
                 </div>
                 <div
-                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-full lg:w-60  pl-4 flex flex-col justify-center items-center rounded-md bg-white">
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-full lg:w-60   flex flex-col justify-center items-center rounded-md bg-white">
                     <h2 class="text-3xl font-extrabold text-orange-600">50+</h2>
                     <h1 class="font-bold">projets realises</h1>
                 </div>
 
                 <div
-                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 w-full h-24 lg:w-60 pl-4 flex flex-col justify-center items-center rounded-md bg-white">
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 w-full h-24 lg:w-60  flex flex-col justify-center items-center rounded-md bg-white">
                     <h2 class="text-3xl font-extrabold text-orange-600">30+</h2>
                     <h1 class="font-bold">Clients satisf
                 </div>
                 <div
-                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-full lg:w-60 pl-4 flex flex-col justify-center items-center rounded-md bg-white">
+                    class="transition delay-150 duration-500 hover:scale-125 hover:border-orange-600 border-2 h-24 w-full lg:w-60  flex flex-col justify-center items-center rounded-md bg-white">
                     <h2 class="text-3xl font-extrabold text-orange-600">10+</h2>
                     <h1 class="font-bold">techs maitrises</h1>
                 </div>
@@ -171,7 +193,7 @@
         </section>
         <!-------------------------------------------- Mes competences------------------------------------------- -->
 
-        <section class="px-12 py-20 flex flex-col items-center bg-white border-b-2" id="Competences">
+        <section class="lg:px-12 px-4 py-20 flex flex-col items-center bg-white border-b-2" id="Competences">
             <div
                 class=" flex justify-center items-center w-48 h-8 border-1 rounded-2xl bg-orange-600 text-white font-bold ">
                 Mes Competences
@@ -294,12 +316,12 @@
         </section>
         <!-------------------------------------------- experiences et formations------------------------------------- -->
 
-        <section class="px-12 py-20 border-b-2 w-full flex flex-col items-center lg:items-start">
+        <section class="lg:px-12 px-4 py-20 border-b-2 w-full flex flex-col gap-10 items-center lg:items-start">
             <div
                 class=" flex justify-center items-center w-40 h-7 border-1 rounded-2xl bg-orange-600 text-white font-bold ">
                 Mon Parcourt</div>
-            <h1 class="text-4xl font-extrabold mb-20">Expériences & Formation.</h1>
-            <div class="flex gap-20 lg:gap-40 items-start w-full">
+            <h1 class="text-4xl font-extrabold ">Expériences & Formation.</h1>
+            <div class="flex flex-col sm:flex-row gap-6 lg:gap-40 items-start w-full">
                 <h4 class="text-orange-600 font-semibold">2025_2026</h4>
                 <div>
                     <div class="flex gap-5 items-center">
@@ -314,7 +336,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex lg:gap-40 gap-20 items-start">
+            <div class="flex flex-col sm:flex-row lg:gap-40 gap-6 items-start">
                 <h4 class="text-orange-600 font-semibold">2023_2024</h4>
                 <div>
                     <div class="flex gap-5 items-center">
@@ -329,7 +351,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex lg:gap-40 gap-20 items-start">
+            <div class="flex flex-col sm:flex-row lg:gap-40 gap-6 items-start">
                 <h4 class="text-orange-600 font-semibold">2022_2023</h4>
                 <div>
                     <div class="flex gap-5 items-center">
@@ -344,7 +366,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-20 lg:gap-40 items-start">
+            <div class="flex flex-col sm:flex-row gap-6 lg:gap-40 items-start">
                 <h4 class="text-orange-600 font-semibold">2020_2022</h4>
                 <div>
                     <div class="flex gap-5 items-center">
@@ -651,7 +673,7 @@
                         id="text">Decrivez brievement votre projet ou votre besoin</textarea>
                 </div>
                 <button
-                    class=" flex justify-center items-center w-full h-10 text-white font-bold bg-orange-600 mt-3 rounded-lg">Envoyer
+                    class=" flex justify-center items-center w-full h-10 text-white font-bold bg-gradient-to-b from-orange-700 to-orange-400 mt-3 rounded-lg">Envoyer
                     le message</button>
             </div>
         </section>
@@ -660,25 +682,37 @@
     </main>
     <!--------------------------------------------- footer ----------------------------------------------->
 
-    <footer class="px-12 py-20 bg-blue-700 w-full bg-gradient-to-r from-blue-900 to-blue-600">
-        <div class="flex justify-between border-b-2 pb-10">
+    <footer class="px-12 py-20 w-full bg-gradient-to-r from-blue-950 via-blue-900 to-blue-800">
+        <div class="flex lg:justify-between gap-4 justify-center border-b-2 pb-10">
             <div>
                 <h2 class="text-white font-bold text-2xl">VALDINI NZAPZI</h2>
                 <P class="text-white text-sm">Développeur Web Fullstack — Créer sans limites.</P>
             </div>
             <div class="flex gap-4">
-                <span
-                    class="size-9 text-black border-white border-2 rounded-full bg-white  justify-center items-center flex "><i
-                        class="fa-brands fa-github"></i></span>
-                <span
-                    class="size-9 text-blue-700 border-white border-2 rounded-full bg-white  justify-center items-center flex"><i
-                        class="fa-brands fa-linkedin-in"></i></span>
-                <span
-                    class="size-9 text-blue-700 border-white border-2 rounded-full  bg-white justify-center items-center flex"><i
-                        class="fa-brands fa-twitter"></i></span>
-                <span
-                    class="size-9 text-blue-700 border-white border-2 rounded-full bg-white  justify-center items-center flex"><i
-                        class="fa-brands fa-facebook-f"></i></span>
+                <a href="https://github.com/valdini10">
+                    <span
+                        class="size-9 text-black border-white border-2 rounded-full bg-white  justify-center items-center flex "><i
+                            class="fa-brands fa-github"></i>
+                    </span>
+                </a>
+                <a href="https://www.linkedin.com/in/valdini-nzapzi-39a224404/">
+                    <span
+                        class="size-9 text-blue-700 border-white border-2 rounded-full bg-white  justify-center items-center flex"><i
+                            class="fa-brands fa-linkedin-in"></i>
+                    </span>
+                </a>
+                <a href="https://wa.me/237680415651?text=Bonjour%20Valdini%2C%20je%20vous%20contacte%20apr%C3%A8s%20avoir%20visit%C3%A9%20votre%20portfolio.%20J%E2%80%99aimerais%20%C3%A9changer%20avec%20vous.">
+                    <span
+                        class="size-9 text-green-800 border-white border-2 rounded-full  bg-white justify-center items-center flex"><i
+                            class="fa-brands fa-whatsapp text-xl" style="-webkit-text-stroke: 1px;"></i>
+                    </span>
+                </a>
+                <a href="https://www.facebook.com/valdini.zefack">
+                    <span
+                        class="size-9 text-blue-700 border-white border-2 rounded-full bg-white  justify-center items-center flex"><i
+                            class="fa-brands fa-facebook-f"></i>
+                    </span>
+                </a>
 
             </div>
         </div>
